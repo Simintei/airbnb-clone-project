@@ -112,3 +112,19 @@ status (pending, completed, failed, refunded)
 >Bookings-Payments
 --One booking has one payment record.
 --One payment is tied to exactly one booking.
+
+Feature Breakdown
+>User Management 
+ Secure guest and host accounts with registration, login, and profile management. This builds the foundation of trust, ensuring users can manage their details and interact safely on the platform.
+
+>Property Management
+Hosts can list, update, and manage properties with information such as location, pricing, and amenities. This allows for a wide range of accommodation options and gives hosts full control over their listings.
+
+>Booking System
+Guests can search, select, and book properties based on availability and dates. The system prevents double bookings and manages reservations, ensuring a smooth guest–host experience.
+
+>Reviews and Ratings
+Guests can leave reviews and rate properties after their stay. This promotes transparency, helps future guests make informed choices, and provides feedback for hosts to improve.
+
+>Payments
+Securely processes payments for bookings, handling statuses such as pending, confirmed, or refunded. This adds reliability and ensures safe transactions for both hosts and guests.
