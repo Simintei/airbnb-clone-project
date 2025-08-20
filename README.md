@@ -17,8 +17,7 @@ They translate the product vision into user-friendly designs. Basically designs 
 >UX Designer
 Is involved in user research, persona development, information structure design, wireframing, prototyping as they think out the entire journey of a user's interaction with the airbnb-clone-project.
 
-Technology stack
-
+"Technology stack"
 Django, MySQL, GraphSQL, PostgreSQL.
 >Django
 This is the web framework to be used to handle logic and connects everything.
