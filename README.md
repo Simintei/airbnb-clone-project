@@ -165,3 +165,18 @@ This ensures two guests cannot reserve the same property for overlapping dates.
 >Double Payment Prevention
 Each booking is tied to a single payment record using idempotency keys and one-to-one booking–payment mapping.  
 This prevents users from being charged multiple times due to retries or repeated clicks.
+
+CI/CD Pipeline
+CI/CD (Continuous Integration and Continuous Deployment/Delivery) pipelines automate the process of building, testing, and deploying the application.
+They are important because they:
+Ensure code changes are tested automatically, reducing bugs and errors.
+Monitoring and logging can be integrated to catch issues in real time after deployment.
+Rollback mechanisms in CI/CD allow quick recovery if something goes wrong during deployment.
+Speed up deployment, making new features and fixes available faster.
+Provide consistency, so every deployment follows the same reliable process.
+
+Tools we can use:
+GitHub Actions – for automated testing, linting, and deployments directly from the repository.
+Docker and Kurbenetes – for containerizing and scaling the app to ensure it runs the same way in all environments.
+Jenkins / GitLab CI – alternatives for advanced automation and deployment workflows.
+Heroku / AWS / GCP – cloud platforms to host and deploy the application. (AWS CodePipeline, AzureDevOPs or Google Cloud for cloud-native CI/CD)
