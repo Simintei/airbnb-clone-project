@@ -5,6 +5,7 @@ The Airbnb Clone Project is a comprehensive, real-world application designed to 
 Modern tools-Docker, Github Actions and other similar CI/CD platforms.
 
 Team Roles
+
 >Backend Developer
 They implement the core of an app, its algorithms and business logic. They also devise the app architecture or design and implement the necessary integrations.
 >Database Administrator
@@ -17,6 +18,7 @@ They translate the product vision into user-friendly designs. Basically designs 
 Is involved in user research, persona development, information structure design, wireframing, prototyping as they think out the entire journey of a user's interaction with the airbnb-clone-project.
 
 Technology stack
+
 Django, MySQL, GraphSQL, PostgreSQL.
 >Django
 This is the web framework to be used to handle logic and connects everything.
