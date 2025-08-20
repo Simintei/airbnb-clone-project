@@ -128,3 +128,40 @@ Guests can leave reviews and rate properties after their stay. This promotes tra
 
 >Payments
 Securely processes payments for bookings, handling statuses such as pending, confirmed, or refunded. This adds reliability and ensures safe transactions for both hosts and guests.
+
+API Security
+>Authentication
+Verifies user identity during login using secure methods for example email/password, OAuth, or two-factor authentication.  
+Crucial for preventing unauthorized access and protecting user accounts.
+
+>Authorization
+Ensures users only access features and data relevant to their role (e.g. hosts manage their own properties, guests manage their bookings).  
+This prevents data leaks and enforces role-based access control.
+
+>Data Encryption 
+All sensitive data is encrypted both in transit (via HTTPS/TLS) and at rest (database-level encryption).  
+This protects personal details, login credentials, and financial data from interception or theft.
+
+>Secure Payments
+Payments are handled through trusted gateways (e.g. PayPal, or M-Pesa API) using tokenization and PCI-DSS compliance.  
+This ensures transactions are secure and minimizes fraud risks.
+
+>Input Validation & Sanitization
+User inputs are validated and sanitized before being processed.  
+This prevents injection attacks such as SQL injection or XSS, safeguarding the database and frontend.
+
+>Rate Limiting & Throttling
+Controls the number of requests per user or IP within a set timeframe.  
+This defends against brute force attacks, spam, and DDoS attempts.
+
+>Logging & Monitoring
+Tracks login attempts, unusual activity, and system errors in real-time.  
+This enables quick detection and response to potential security breaches.
+
+>Double Booking Prevention
+The booking system uses database transactions and availability checks at both the search and confirmation stages.  
+This ensures two guests cannot reserve the same property for overlapping dates.
+
+>Double Payment Prevention
+Each booking is tied to a single payment record using idempotency keys and one-to-one booking–payment mapping.  
+This prevents users from being charged multiple times due to retries or repeated clicks.
